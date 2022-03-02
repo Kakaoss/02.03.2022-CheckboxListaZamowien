@@ -10,7 +10,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@id/checkBox4"
+        android:layout_above="@id/checkBoxFrytki"
         android:layout_marginBottom="93dp"
         android:text="Wybierz produkty"
         android:textAlignment="center"
@@ -19,41 +19,44 @@
         android:textStyle="bold|italic" />
 
     <CheckBox
-        android:id="@+id/checkBox4"
+        android:id="@+id/checkBoxFrytki"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@id/checkBox1"
+        android:layout_above="@id/checkBoxPizza"
         android:layout_centerInParent="true"
         android:text="Frytki" />
+
     <CheckBox
-        android:id="@+id/checkBox1"
+        android:id="@+id/checkBoxPizza"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:text="Pizza" />
 
     <CheckBox
-        android:id="@+id/checkBox2"
+        android:id="@+id/checkBoxKawa"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/checkBox1"
+        android:layout_below="@id/checkBoxPizza"
         android:layout_centerInParent="true"
         android:layout_marginTop="10dp"
         android:text="Kawa" />
+
     <CheckBox
-        android:id="@+id/checkBox3"
+        android:id="@+id/checkBoxBurger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/checkBox2"
+        android:layout_below="@id/checkBoxKawa"
         android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
         android:text="Burger" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonZaplac"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/checkBox3"
+        android:layout_below="@id/checkBoxBurger"
         android:layout_marginTop="10dp"
         android:text="Zapłać" />
 
